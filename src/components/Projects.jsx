@@ -11,13 +11,20 @@ const projectData = [
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. In tenetur velit error temporibus modi voluptatibus esse mollitia porro magni laborum dolorum vero cum facere placeat, adipisci nulla voluptates neque numquam.",
     technologies: ["CSS", "HTML", "Bootstrap"],
   },
+  
+  {
+    image: "/assets/Dashboard.png",
+    title :"E-com Website",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. In tenetur velit error temporibus modi voluptatibus esse mollitia porro magni laborum dolorum vero cum facere placeat, adipisci nulla voluptates neque numquam.",
+    technologies: ["CSS", "HTML", "Bootstrap"],
+  },
 
   {
     image: "/assets/webdashboard.png",
     title :"WEB NEWS",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. In tenetur velit error temporibus modi voluptatibus esse mollitia porro magni laborum dolorum vero cum facere placeat, adipisci nulla voluptates neque numquam.",
     technologies: ["JavaScript", "HTML", "CSS","API"],
-  },
+  }
 
 ]
 

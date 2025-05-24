@@ -26,10 +26,10 @@ const Hero = () => {
           <h1 className='bg-gradient-to-r from-blue-500 via-gray-500 to-pink-500 bg-clip-text text-transparent font-light text-5xl md:text-7xl'>Aman Solanki</h1>
 
 
-          <h3 className='bg-gradient-to-r from-blue-500 via-gray-500 to-pink-500 bg-clip-text text-transparent text-2xl md:text-4xl'>Web Developer</h3>
+          <h3 className='bg-gradient-to-r from-blue-500 via-gray-500 to-pink-500 bg-clip-text text-transparent text-2xl md:text-4xl'>MERN Stack Developer</h3>
 
 
-          <p className='md:text-base text-sm text-gray-400 text-thin'>I am a Web Developer skilled in javascript,Reactjs,CSS and tailwind, focused on building clean and scalabel application. I create efficient solutions for dynamic user experience. I am excited to delve deeper into my field, seeking to explore every facet and apply the knowledge I have gained so far. Let's build something great together.
+          <p className='md:text-base text-sm text-gray-400 text-thin'>I am a Web Developer skilled in javascript, React JS,Node JS, Express JS and tailwind CSS, focused on building clean and scalabel application. I create efficient solutions for dynamic user experience. I am excited to delve deeper into my field, seeking to explore every facet and apply the knowledge I have gained so far. Let's build something great together.
           </p>
         </motion.div>
       </div>
