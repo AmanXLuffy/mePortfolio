@@ -1,20 +1,37 @@
-import Contact from "./components/Contact";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Tech from "./components/Tech";
+// import Contact from "./components/Contact";
+// import Hero from "./components/Hero";
+// import Navbar from "./components/Navbar";
+// import Projects from "./components/Projects";
+// import Tech from "./components/Tech";
+
+// function App() {
+//   return (
+//     <>
+//     <main className=" font-bold"> 
+//       <Navbar />
+//       <Hero />
+//       <Tech />
+//       <Projects />
+//       <Contact />
+//     </main>
+//     </>
+//   );
+// }
+
+// export default App;
+
+
+
+import Home from "./components/Home";
+import ParticleBackground from "./components/ParticleBackground";
+import Background from "./components/ParticleBackground";
 
 function App() {
   return (
-    <>
-    <main className=" font-bold"> 
-      <Navbar />
-      <Hero />
-      <Tech />
-      <Projects />
-      <Contact />
-    </main>
-    </>
+    <div className="relative min-h-screen bg-black text-white">
+      <ParticleBackground />
+      <Home />
+    </div>
   );
 }
 
