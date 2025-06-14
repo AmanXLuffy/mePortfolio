@@ -23,13 +23,13 @@
 
 
 import Home from "./components/Home";
+import React from "react";
 import ParticleBackground from "./components/ParticleBackground";
-import Background from "./components/ParticleBackground";
 
 function App() {
   return (
     <div className="relative min-h-screen bg-black text-white">
-      <ParticleBackground />
+
       <Home />
     </div>
   );

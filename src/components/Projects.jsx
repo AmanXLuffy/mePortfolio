@@ -6,10 +6,10 @@ import React,{useState} from 'react';
 
 const projectData = [
   {
-    image: "/assets/Dashboard.png",
-    title :"E-com Website",
+    image: "/assets/rescue.png",
+    title :"Rescue Paws",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. In tenetur velit error temporibus modi voluptatibus esse mollitia porro magni laborum dolorum vero cum facere placeat, adipisci nulla voluptates neque numquam.",
-    technologies: ["CSS", "HTML", "Bootstrap"],
+    technologies: ["React js", "Express js", "MongoDB", "Tailwind CSS"],
   },
   
   {
@@ -43,7 +43,7 @@ const ProjectCard = ({projectData})=> {
         <p className='text-gray-400'>{projectData.description}</p>
         </div>
         </div>
-        <div className='flex flex-wrap gap-5'>
+        <div className='flex flex-wrap gap-4'>
           {
             projectData.technologies.map((tech,index)=>(
               <span key={index} className='rounded-lg bg-black p-3 hover:bg-gray-800 transition-all duration-300'>

@@ -12,7 +12,7 @@ const Hero = () => {
         animate={{y: 0, opacity:1}}
         transition={{duration: 0.8, delay: 0.2}}
         >
-        <a href='https://drive.google.com/file/d/1jBGuv75ItO5ddd5aX76whZSk7959j9F0/view?usp=drive_link' target='_blank'> <img src="/assets/img1.jpg" alt='' className=' cursor-pointer shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-indigo-600 md:w-[350px] w-[300px] rounded-full '></img> </a>
+        <a href='https://drive.google.com/file/d/1FS4p476eG8-ReB9rXJ7_kMV4qsWYv0ms/view?usp=drive_link' target='_blank'> <img src="/assets/img1.jpg" alt='' className=' cursor-pointer shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-indigo-600 md:w-[350px] w-[300px] rounded-full '></img> </a>
         </motion.div>
 
 
