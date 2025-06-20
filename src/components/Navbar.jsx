@@ -24,7 +24,7 @@ const handleResize = () => {
 
   return (
     <nav className='fixed top-0 z-10 flex w-full items-center justify-between border-b border-b-gray-700 bg-black/70 px-16 py-6 text-slate-50 backdrop-blur-md md:justify-evenly'>
-      <a href='#home' className='bg-gradient-to-r from-blue-500 via-gray-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-3xl font-semibold transition-all duration-300 hover:opacity-100'>PortFolio</a>
+      <a href='#home' className='bg-gradient-to-r from-blue-500 via-gray-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-3xl font-semibold transition-all duration-300 hover:opacity-100'>Aman</a>
 
 
       <ul className='hidden md:flex gap-10'> 
@@ -60,9 +60,16 @@ const handleResize = () => {
             </ul>
 
           <ul className='flex flex-wrap gap-5'>
-             <li className=' cursor-pointer opacity-50 transition-all duration-300 hover:text-blue-500 hover:opacity-100'> <BsFacebook/> </li>
-             <li className=' cursor-pointer opacity-50 transition-all duration-300 hover:text-green-500 hover:opacity-100'> <BsWhatsapp/> </li>
-             <li className=' cursor-pointer opacity-50 transition-all duration-300 hover:text-sky-500 hover:opacity-100'> <BsGithub/> </li>
+             {/* <li className=' cursor-pointer opacity-50 transition-all duration-300 hover:text-blue-500 hover:opacity-100'> <BsFacebook/> </li> */}
+             <a href="https://www.facebook.com/profile.php?id=100054057791444" target="_blank" rel="noopener noreferrer" className="text-blue-600 opacity-90 hover:opacity-100 transition"><BsFacebook size={28} /></a>
+             {/* <li className=' cursor-pointer opacity-50 transition-all duration-300 hover:text-green-500 hover:opacity-100'> <BsWhatsapp/> </li> */}
+             <a href="https://wa.me/9173515355" target="_blank" rel="noopener noreferrer" className="text-green-500 opacity-90 hover:opacity-100 transition">
+              <BsWhatsapp size={28} />
+            </a>
+             {/* <li className=' cursor-pointer opacity-50 transition-all duration-300 hover:text-sky-500 hover:opacity-100'> <BsGithub/> </li> */}
+             <a href="https://www.instagram.com/aman_solanki702/" target="_blank" rel="noopener noreferrer" className="text-pink-500 opacity-90 hover:opacity-100 transition">
+              <BsGithub size={28} />
+            </a>
              <li className=' cursor-pointer opacity-50 transition-all duration-300 hover:text-pink-500 hover:opacity-100'> <BsInstagram/></li>
           </ul>
           </div>
