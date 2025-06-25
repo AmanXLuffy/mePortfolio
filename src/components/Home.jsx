@@ -4,6 +4,7 @@ import Hero from './Hero'
 import Tech from './Tech'
 import Projects from './Projects'
 import Contact from './Contact'
+import SkillBarChart from './SkillBarChart'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Tech />
+      <SkillBarChart />
       <Projects />
       <Contact />
     </main>
