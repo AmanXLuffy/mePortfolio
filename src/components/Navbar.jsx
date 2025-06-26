@@ -30,6 +30,7 @@ const handleResize = () => {
       <ul className='hidden md:flex gap-10'> 
         <a href='#home' className='cursor-pointer opacity-60 transition-all duration-300 hover:opacity-100'><li>Home</li></a>
         <a href='#tech' className='cursor-pointer opacity-60 transition-all duration-300 hover:opacity-100'><li>Tech</li></a>
+        <a href='#skills' className='cursor-pointer opacity-60 transition-all duration-300 hover:opacity-100'><li>Skills</li></a>
         <a href='#projects' className='cursor-pointer opacity-60 transition-all duration-300 hover:opacity-100'><li>Projects</li></a>
         <a href='#contact' className='cursor-pointer opacity-60 transition-all duration-300 hover:opacity-100'><li>Contact</li></a>
       </ul>
@@ -39,7 +40,7 @@ const handleResize = () => {
        <a href='https://www.facebook.com/profile.php?id=100054057791444' target='_blank'> <li className=' cursor-pointer opacity-50 transition-all duration-300 hover:text-blue-500 hover:opacity-100'> <BsFacebook/> </li> </a>
        <a href='https://wa.me/9173515355' target='_blank'> <li className=' cursor-pointer opacity-50 transition-all duration-300 hover:text-green-500 hover:opacity-100'> <BsWhatsapp/></li> </a>
        <a href='https://github.com/AmanXLuffy' target='_blank'> <li className=' cursor-pointer opacity-50 transition-all duration-300 hover:text-sky-500 hover:opacity-100'> <BsGithub/> </li> </a>
-       <a href='#' target='_blank'> <li className=' cursor-pointer opacity-50 transition-all duration-300 hover:text-pink-500 hover:opacity-100'> <BsInstagram/></li></a>
+       <a href='https://www.instagram.com/aman_solanki702/' target='_blank'> <li className=' cursor-pointer opacity-50 transition-all duration-300 hover:text-pink-500 hover:opacity-100'> <BsInstagram/></li></a>
         </ul>
 
 
